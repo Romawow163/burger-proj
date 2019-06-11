@@ -1,0 +1,51 @@
+// Colors
+$orange: #e45028;
+$yellow: #f9b43b;
+$black: #2f3234;
+$red: #e35028;
+$white: #fff;
+$grey: rgb(47, 50, 52);
+
+
+// Resolutions
+$desktop: 1200px;
+$laptop: 992px;
+$tablets: 768px;
+$phones: 480px;
+
+
+// Normalize
+@import "misc/_normalize.scss";
+
+
+// Media 
+@import "misc/_media";
+
+
+// Settings
+@import "misc/_fonts";
+@import "misc/_mixins";
+@import "misc/_layout.scss";
+@import "misc/_animation.scss";
+
+
+//blocks
+@import "blocks/_header";
+@import "blocks/_popup-menu";
+@import "blocks/_pagination";
+@import "blocks/_hamburger-menu";
+@import "blocks/_button";
+@import "blocks/_team-accordeon";
+@import "blocks/_menu-accordeon";
+@import "blocks/_footer";
+@import "blocks/_socials";
+@import "blocks/_popup-msg";
+@import "blocks/_map";
+@import "blocks/_heading.scss";
+@import "blocks/_best.scss";
+@import "blocks/_burgers.scss";
+@import "blocks/_menu.scss";
+@import "blocks/_team.scss";
+@import "blocks/_reviews.scss";
+@import "blocks/_order.scss";
+@import "blocks/video";
